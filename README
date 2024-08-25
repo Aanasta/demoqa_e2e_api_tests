@@ -1,0 +1,15 @@
+Book Store API Test Framework
+
+Application under test: Book Store Web API (https://demoqa.com/swagger)
+
+The framework contains a test scenario covering a demo end-to-end flow of a user creating a new account, getting the kist of all books and adding selected books to its profile
+
+Use the following command to run the test in console:
+mvn clean test -Dcucumber.options="--tags @E2E"
+
+Tools used:
+- Java 11
+- Maven
+- Cucumber
+- TestNG
+- Retrofit 2
