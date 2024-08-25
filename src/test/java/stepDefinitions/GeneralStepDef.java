@@ -2,17 +2,9 @@ package stepDefinitions;
 
 import apiService.ApiConnection;
 import apiService.models.GenericResponse;
-import apiService.models.books.BooksResponse;
 import apiService.models.token.TokenResponse;
 import apiService.models.user.user.UserRequest;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.fge.jackson.JsonLoader;
-import com.github.fge.jsonschema.core.exceptions.ProcessingException;
 import com.github.fge.jsonschema.core.report.ProcessingReport;
-import com.github.fge.jsonschema.main.JsonSchemaFactory;
-import com.github.fge.jsonschema.main.JsonValidator;
 import context.TestContext;
 import entities.ApiUser;
 import io.cucumber.java.en.And;
